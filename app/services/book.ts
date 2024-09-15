@@ -1,4 +1,5 @@
 import { Delta } from 'quill/core';
+import { AxiosError } from 'axios';
 
 import { BookDocument } from '../api/models/Book';
 
@@ -19,7 +20,7 @@ type UpdateBookPayload = {
   content?: Delta;
 };
 
-export const findBooks = async (): Promise<BookDocument[]> => {
+export const findBooks = async (): Promise<BookDocument[] | AxiosError> => {
   return api
     .get('/book')
     .then(({ data }) => data.books)

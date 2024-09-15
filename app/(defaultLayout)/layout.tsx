@@ -10,6 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <div className="relative flex flex-col h-screen">
+      {/* @ts-expect-error Server Component */}
       <Navbar />
       <main className="container mx-auto max-w-7xl px-6 flex-grow">
         {children}

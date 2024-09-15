@@ -15,7 +15,7 @@ export default function BookInfo(book: BookInfoProps) {
       </div>
 
       <div className="flex gap-5 items-center">
-        <p className={classNames(subtitle(), 'max-w-[900px]')}>{book.description ?? 'Sem descrição'}</p>
+        <p className={classNames(subtitle(), 'max-w-[800px]')}>{book.description ?? 'Sem descrição'}</p>
       </div>
     </div>
   );

@@ -147,7 +147,7 @@ export default function EditBookInfo({ id, ...book }: EditBookInfoProps) {
         ) : isDescriptionLoading ? (
           <Spinner />
         ) : (
-          <p className={classNames(subtitle(), 'max-w-[900px]')}>
+          <p className={classNames(subtitle(), 'max-w-[800px]')}>
             {currentBookInfo.description ?? 'Sem descrição'}
           </p>
         )}

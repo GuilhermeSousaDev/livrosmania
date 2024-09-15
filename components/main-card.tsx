@@ -108,9 +108,6 @@ export default function MainCard() {
           <p className="text-tiny text-white/60 uppercase font-bold">
             Criatividade
           </p>
-          {/* <h4 className="text-white font-medium text-large">
-            Contribute to the planet
-          </h4> */}
         </CardHeader>
         <Image
           removeWrapper
@@ -124,9 +121,6 @@ export default function MainCard() {
           <p className="text-tiny text-white/60 uppercase font-bold">
             Inovação
           </p>
-          {/* <h4 className="text-white font-medium text-large">
-            Creates beauty like a beast
-          </h4> */}
         </CardHeader>
         <Image
           removeWrapper
