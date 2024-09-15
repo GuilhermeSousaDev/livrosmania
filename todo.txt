@@ -1,0 +1,4 @@
+Validar ao atualizar/deletar se o user_id é o mesmo do dono do livro
+Tentar injetar o id do usuário do banco na session do next auth
+Soluções alternativas
+criar a referencia do mongodb pelo id que o google traz
